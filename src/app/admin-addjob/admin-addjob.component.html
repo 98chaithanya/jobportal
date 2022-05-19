@@ -1,0 +1,92 @@
+<div class="py-5">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <span class="anchor" id=formLogin></span>
+            <!-- form card login -->
+            <div class="card rounded-0">
+                <div class="card-header bg-primary">
+                    <h3 class="mb-0 text-center text-white"> Job Post</h3>
+                </div>
+                <div class="card-body">
+                    <form action="" class="form">
+                        <div class="form-group">
+                            <label for="uname1">Job Id </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.jobid" name="jobid" id="jobid">
+                        </div>
+                        <div class="form-group">
+                            <label>Job Title </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.jobtitle" name="jobtitle" id="jobtitle">
+                        </div>
+                        <div class="form-group">
+                            <label>Job posted date </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.jobposteddate" name="jobposteddate" id="jobtitle">
+                        </div>
+                        <div class="form-group">
+                            <label>Role </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.role" name="role" id="role">
+                        </div>
+                        <div class="form-group">
+                            <label>Responsibility </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.responsibility" name="responsibility" id="responsibility">
+                        </div>
+                        <div class="form-group">
+                            <label>Company name </label>
+                            <input type="text"  class="form-control" [(ngModel)]="addJobDetails.companyname" name="companyname" id="companyname">
+                        </div>
+                        <div class="form-group">
+                            <label>Experience </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.experience" name="experience" id="experience">
+                        </div>
+                        <div class="form-group">
+                            <label>Salary Range </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.salaryrange" name="salaryrange" id="salaryrange">
+                        </div>
+                        <div class="form-group">
+                            <label>No of positions </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.noofpositions" name="noofpositions" id="noofpositions">
+                        </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.location" name="location" id="location">
+                        </div>
+                        <div class="form-group">
+                            <label>Skills </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.skills" name="skills" id="skills">
+                        </div>
+                        <div class="form-group">
+                            <label>Qualification </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.qualification" name="qualification" id="qualification">
+                        </div>
+                        <div class="form-group">
+                            <label>Degree </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.degree" name="degree" id="degree">
+                        </div>
+                        <div class="form-group">
+                            <label>Company info </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.companyinfo" name="companyinfo" id="companyinfo">
+                        </div>
+                        <div class="form-group">
+                            <label>Employment type </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.employmenttype" name="employmenttype" id="employmenttype">
+                        </div>
+                        <div class="form-group">
+                            <label>Industry type </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.industrytype" name="industrytype" id="industrytype">
+                        </div>
+                        <div class="form-group">
+                            <label>Search keyword</label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.searchkeyword" name="searchkeyword" id="searchkeyword">
+                        </div>
+                        <div class="form-group">
+                            <label>Job description </label>
+                            <input type="text" class="form-control" [(ngModel)]="addJobDetails.jobdescription" name="jobdescription" id="jobdescription">
+                        </div>
+                        <button type="button" (click)="addJob()" class="btn btn-success "> Post</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

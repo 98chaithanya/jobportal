@@ -1,0 +1,27 @@
+<!-- <h3>{{title}}</h3>
+<div class="card-header">
+    <a routerLink='/joblist'>JobList</a>
+   <a routerLink="/addjob">Add Job</a>
+</div> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">{{title}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/addjob" routerLinkActive="active">Add Job</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/joblist" routerLinkActive="active">Job list</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+          <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+          <a class="nav-link" routerLink="/register" routerLinkActive="active">Register</a>
+      </ul>
+    </div>
+  </nav>
